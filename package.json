@@ -1,0 +1,19 @@
+{
+  "name": "telegram-airtable-api",
+  "version": "1.0.0",
+  "description": "Express backend for handling form submissions, Telegram notifications, and optional Airtable integration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
